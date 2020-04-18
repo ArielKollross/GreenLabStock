@@ -1,18 +1,24 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-container>
+    <v-card>
+      <v-card-title>Relatórios do sistema</v-card-title>
+      <v-divider></v-divider>
+      <v-card-subtitle>Ultimas movimentações</v-card-subtitle>
+      <ExportInventaryMoviment />
+      <v-card-subtitle>Produtos para vencer</v-card-subtitle>
+      <ValidateDateProducts />
+    </v-card>
+  </v-container>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import ExportInventaryMoviment from  '../components/ExportInventaryMoviment'
+import ValidateDateProducts from '../components/ValidateDateProducts'
 
 export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
+
+components: {
+  ExportInventaryMoviment, ValidateDateProducts
+}
 }
 </script>
