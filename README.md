@@ -1,3 +1,5 @@
+Frontend iventory control system built in Vue and Electron
+
 # lab_stocke
 
 ## Project setup
