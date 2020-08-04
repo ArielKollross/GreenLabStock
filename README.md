@@ -9,7 +9,7 @@
 
 ## Resumo
 <p align="center">
-  Projeto para controle de estoque para fabricas e laboratórios.
+  Projeto para controle de estoque e movimentação de entrada/saída de insumos e produtos.
 </p>
 
 ## Status
